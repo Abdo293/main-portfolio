@@ -3,19 +3,11 @@ import {
   Github,
   Instagram,
   Linkedin,
-  Mail,
   MapPin,
   Phone,
 } from "lucide-react";
 
 export const contactInfo = [
-  {
-    icon: Mail,
-    title: "Email",
-    value: "contact@abuelazm.com",
-    link: "contact@abuelazm.com",
-    description: "Send me an email anytime",
-  },
   {
     icon: Phone,
     title: "Phone",

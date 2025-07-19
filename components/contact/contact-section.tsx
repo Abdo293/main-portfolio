@@ -8,7 +8,6 @@ import {
   Send,
   User,
   MessageCircle,
-  Clock,
   CheckCircle,
   ExternalLink,
 } from "lucide-react";
@@ -98,6 +97,25 @@ export default function ContactPage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <Card className="group bg-card/50 backdrop-blur-sm border border-[#ffb400]/20 shadow-lg hover:shadow-xl hover:shadow-[#ffb400]/10 transition-all duration-300 hover:translate-y-[-4px] hover:border-[#ffb400]/40">
+                <CardContent className="p-6 text-center">
+                  <div className="p-4 bg-[#ffb400]/10 rounded-full w-fit mx-auto mb-4 group-hover:bg-[#ffb400]/20 transition-colors duration-300">
+                    <Mail className="w-8 h-8 text-[#ffb400]" />
+                  </div>
+                  <h3 className="text-xl font-bold text-card-foreground dark:text-white mb-2">
+                    Email
+                  </h3>
+                  <p className="text-sm text-muted-foreground dark:text-slate-400 mb-3">
+                    Send me an email anytime
+                  </p>
+                  <a
+                    href="mailto:contact@abuelazm.com"
+                    className="text-[#ffb400] hover:text-[#ff8c00] font-medium transition-colors duration-300 flex items-center justify-center gap-2"
+                  >
+                    contact@abuelazm.com
+                  </a>
+                </CardContent>
+              </Card>
               {contactInfo.map((info, index) => (
                 <Card
                   key={index}
