@@ -20,7 +20,7 @@ export default function HeroSection() {
 
         {/* Content section */}
         <div className="flex flex-col items-center lg:items-start justify-center mt-8 lg:mt-0 lg:h-[calc(100vh-80px)] text-center lg:text-left lg:w-2/3 lg:ml-[200px] px-4">
-          <p className="font-bold text-3xl max-md:text-[29px] sm:text-4xl md:text-5xl">
+          <p className="font-bold text-3xl max-md:text-[27px] sm:text-4xl md:text-5xl">
             <span className="text-[#ffb400] block">
               I'm Abdelrhman Abuelazm
             </span>{" "}
