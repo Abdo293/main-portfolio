@@ -9,8 +9,8 @@ import { ModeToggle } from "@/components/themes/darkModeIcons";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Abdelrhman Elsayed",
-  description: "Web Designer Portfolio",
+  title: "Abdelrhman Abuelazm",
+  description: "Web Developer Portfolio",
 };
 
 export default function RootLayout({
