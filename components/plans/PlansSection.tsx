@@ -99,7 +99,7 @@ export default function PlansPage() {
           {plans.map((plan) => (
             <Card
               key={plan.id}
-              className={`relative group bg-card/50 backdrop-blur-sm border ${
+              className={`relative max-md:mt-3 group bg-card/50 backdrop-blur-sm border ${
                 plan.borderColor
               } shadow-lg hover:shadow-xl hover:shadow-[#ffb400]/10 transition-all duration-300 hover:translate-y-[-8px] ${
                 plan.popular ? "ring-2 ring-[#ffb400]/30 scale-105" : ""
@@ -285,7 +285,7 @@ export default function PlansPage() {
         </section>
 
         {/* CTA Section */}
-        <div className="text-center">
+        <div className="text-center max-md:mb-10">
           <Card className="bg-gradient-to-r from-[#ffb400]/10 to-[#ff8c00]/10 backdrop-blur-sm border border-[#ffb400]/30 shadow-xl">
             <CardContent className="p-12">
               <h2 className="text-3xl font-bold mb-4 text-foreground dark:text-white">
@@ -295,7 +295,7 @@ export default function PlansPage() {
                 Let's create your website together! Contact me to discuss your
                 project and take advantage of these launch prices.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Link href={"/contact"}>
                   <button className="bg-gradient-to-r cursor-pointer from-[#ffb400] to-[#ff8c00] text-white py-4 px-8 rounded-lg font-medium hover:from-[#ff8c00] hover:to-[#ffb400] transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:shadow-[#ffb400]/25">
                     <ArrowRight className="w-5 h-5" />
