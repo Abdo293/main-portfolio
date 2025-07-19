@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className="bg-[#ffb400] fixed left-[-87%] -top-1/2 h-[200%] w-full rotate-[-15deg] max-lg:hidden z-[1]"></div>
 
       {/* Container for positioning content */}
-      <div className="relative z-10 container mx-auto pt-10 flex flex-col lg:flex-row items-center max-lg:absolute max-lg:top-1/2 max-lg:transform max-lg:translate-y-[-60%] max-md:mt-10">
+      <div className="relative z-10 container mx-auto pt-10 flex flex-col lg:flex-row items-center max-lg:absolute max-lg:top-1/2 max-lg:transform max-lg:translate-y-[-60%] max-md:mt-12">
         {/* Image container with higher z-index to appear above the background */}
         <div className="img-container w-full lg:w-1/3 flex justify-center lg:justify-start">
           <div className="img relative lg:fixed rounded-[50%] lg:rounded-none w-[250px] sm:w-[260px] md:w-[300px] lg:w-[400px] xl:w-[500px] h-[250px] sm:h-[260px] md:h-[300px] lg:h-[calc(100vh-80px)] overflow-hidden"></div>
