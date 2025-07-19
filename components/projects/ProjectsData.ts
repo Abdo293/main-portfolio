@@ -1,0 +1,72 @@
+export const projects = [
+  {
+    id: "ecommerce-app",
+    title: "E-Commerce Platform",
+    description:
+      "Developed a dynamic and fully functional e-commerce web application that provides a seamless shopping experience. The project showcases advanced state management, type safety, and responsive design.",
+    image: "/nextEcommerce.jpeg", // Add your project images
+    category: "Full Stack",
+    technologies: ["Next.js", "Typescript", "Redux Toolkit", "Tailwind"],
+    liveUrl: "https://next-ecommerce-b79n.vercel.app/",
+    githubUrl: "https://github.com/Abdo293/next-ecommerce",
+    featured: true,
+    status: "Completed",
+    year: "2024",
+  },
+  {
+    id: "Dashboard",
+    title: "Dashboard",
+    description:
+      "React-based dashboard project, leveraging the MUI library for UI components, the Nivo library for data visualization, and the FullCalendar library for managing calendar functionalities, and the react-hook-form library for form management.",
+    image: "/dashboard.png",
+    category: "Frontend",
+    technologies: ["React.js", "Material UI"],
+    liveUrl: "https://dashboard-react-jade.vercel.app/",
+    githubUrl: "https://github.com/Abdo293/Dashboard---React",
+    featured: true,
+    status: "Completed",
+    year: "2024",
+  },
+  {
+    id: "photographer",
+    title: "photographer",
+    description:
+      "A personal photography portfolio website featuring elegant animations and a modern user interface. Built with Next.js for optimal performance and smooth navigation between gallery sections. The site incorporates responsive design principles, image optimization, and animation libraries to create an immersive viewing experience that showcases the photographer's work beautifully.",
+    image: "/photography.png",
+    category: "Full Stack",
+    technologies: ["Next.Js", "Framer Motion", "Typescript", "Tailwind"],
+    liveUrl: "https://photographer-two-topaz.vercel.app/",
+    githubUrl: "https://github.com/Abdo293/my-portfolio",
+    featured: false,
+    status: "In Progress",
+    year: "2025",
+  },
+  {
+    id: "movies",
+    title: "Movies App",
+    description:
+      "platform for displaying movies in an attractive and user-friendly way. It features a simple, distinctive design with subtle animations that add a lively touch to the user experience, making it more interactive and easy to navigate between movies and available content.",
+    image: "/movies.jpg",
+    category: "Frontend",
+    technologies: ["Next.Js", "TypeScript", "Zustand", "TMDP Api"],
+    liveUrl: "https://movies-bice.vercel.app/",
+    githubUrl: "https://github.com/Abdo293/Movies",
+    featured: false,
+    status: "Completed",
+    year: "2025",
+  },
+  {
+    id: "landscape",
+    title: "Landscape",
+    description:
+      "A landscaping services landing page developed using Next.js (TypeScript) and Tailwind CSS. The site features an interactive, responsive interface with full support for both Arabic and English, providing a seamless user experience and a modern design that reflects the brand identity.",
+    image: "/landscape.png",
+    category: "Full Stack",
+    technologies: ["Next.js", "Typescript", "Next-intl"],
+    liveUrl: "https://landscape-xi.vercel.app/",
+    githubUrl: "https://github.com/Abdo293/landscape",
+    featured: false,
+    status: "Completed",
+    year: "2025",
+  },
+];
