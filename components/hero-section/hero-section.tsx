@@ -14,13 +14,13 @@ export default function HeroSection() {
       {/* Container for positioning content */}
       <div className="relative z-10 container mx-auto pt-10 flex flex-col lg:flex-row items-center max-lg:absolute max-lg:top-1/2 max-lg:transform max-lg:translate-y-[-60%] max-md:mt-10">
         {/* Image container with higher z-index to appear above the background */}
-        <div className="img-container w-full lg:w-1/3 flex justify-center lg:justify-start max-md:mt-[250px]">
+        <div className="img-container w-full lg:w-1/3 flex justify-center lg:justify-start max-md:mt-[330px]">
           <div className="img relative lg:fixed rounded-[50%] lg:rounded-none w-[250px] sm:w-[260px] md:w-[300px] lg:w-[400px] xl:w-[500px] h-[250px] sm:h-[260px] md:h-[300px] lg:h-[calc(100vh-80px)] overflow-hidden"></div>
         </div>
 
         {/* Content section */}
         <div className="flex flex-col items-center lg:items-start justify-center mt-8 lg:mt-0 lg:h-[calc(100vh-80px)] text-center lg:text-left lg:w-2/3 lg:ml-[200px] px-4">
-          <p className="font-bold text-3xl max-md:text-[27px] sm:text-4xl md:text-5xl">
+          <p className="font-bold text-3xl max-md:text-[29px] sm:text-4xl md:text-5xl">
             <span className="text-[#ffb400] block">
               I'm Abdelrhman Abuelazm
             </span>{" "}

@@ -5,12 +5,13 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import { ThemeProvider } from "@/components/themes/theme-provider";
 import { ModeToggle } from "@/components/themes/darkModeIcons";
+import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Abdelrhman Abuelazm",
-  description: "Web Developer Portfolio",
+  title: "Abdelrhman Elsayed",
+  description: "Web Designer Portfolio",
 };
 
 export default function RootLayout({
@@ -31,6 +32,7 @@ export default function RootLayout({
             <ModeToggle />
           </div>
           {children}
+          <Toaster position="top-center" richColors />
           <Navigation />
         </ThemeProvider>
       </body>

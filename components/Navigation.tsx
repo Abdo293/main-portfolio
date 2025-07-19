@@ -1,7 +1,7 @@
 "use client";
 import { useRouter, usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Home, User, Briefcase, Mail } from "lucide-react";
+import { Home, User, Briefcase, Mail, Package } from "lucide-react";
 
 export default function Navigation() {
   const router = useRouter();
@@ -11,6 +11,7 @@ export default function Navigation() {
     { icon: <Home />, route: "/", tooltip: "Home" },
     { icon: <User />, route: "/about", tooltip: "About Me" },
     { icon: <Briefcase />, route: "/projects", tooltip: "projects" },
+    { icon: <Package />, route: "/plans", tooltip: "Plans" },
     { icon: <Mail />, route: "/contact", tooltip: "Contact" },
   ];
 
