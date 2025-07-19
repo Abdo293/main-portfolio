@@ -322,7 +322,7 @@ export default function Projects() {
           </section>
 
           {/* Contact CTA */}
-          <div>
+          <div className="max-md:mb-10">
             <AnimatedButton txt="Get In Touch" link="/contact" />
           </div>
         </div>
