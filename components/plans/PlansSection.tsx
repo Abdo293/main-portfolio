@@ -302,7 +302,7 @@ export default function PlansPage() {
                     Contact Me Now
                   </button>
                 </Link>
-                <Link href={"/project"}>
+                <Link href={"/projects"}>
                   <button className="bg-card/80 cursor-pointer border border-[#ffb400]/20 text-foreground dark:text-white py-4 px-8 rounded-lg font-medium hover:bg-[#ffb400]/10 hover:border-[#ffb400]/40 transition-all duration-300 flex items-center justify-center gap-2">
                     <Globe className="w-5 h-5" />
                     View Projects

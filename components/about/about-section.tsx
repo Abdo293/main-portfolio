@@ -287,7 +287,7 @@ export default function About() {
 
           {/* Enhanced CTA Section */}
           <div className="max-md:mb-10">
-            <AnimatedButton link="/project" txt="View My Projects" />
+            <AnimatedButton link="/projects" txt="View My Projects" />
           </div>
         </div>
       </div>
